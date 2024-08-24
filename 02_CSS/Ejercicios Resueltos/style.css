@@ -1,0 +1,22 @@
+/*Bloque que me enseñó ChatGPT para poner diferentes colores en las palabras del título*/
+.palabra1{
+    color: green;
+}
+
+.palabra2 {
+    color: red;
+}
+/*Hasta acá*/
+
+.lista1 li:nth-child(2) {
+    color: pink;
+}
+
+.h2{
+    color: blue;
+}
+
+.lista2 > li:nth-child(2n){ /*ChatGPT me explicó lo de poner .lista2 > li:nth-child para que no se vea afecta la lista interna*/
+    color: pink;
+}
+
